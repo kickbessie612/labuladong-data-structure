@@ -28,6 +28,9 @@ arr5.shift();
 console.log('arr5', arr5); //[1,2,3,4]
 
 // ？？？？ 删除index对应的元素并返回
+const arr8 = [1, 2, 3, 4, 5];
+arr8.splice(2, 1);
+console.log('arr8', arr8); //[1,2,4,5]
 
 // ******查******
 // 返回index对应的元素
