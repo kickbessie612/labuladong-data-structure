@@ -1,4 +1,5 @@
 // 双链表节点
+// 用object定义
 class LinkedListNode {
   constructor(value, next) {
     this.value = value;
