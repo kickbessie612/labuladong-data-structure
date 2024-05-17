@@ -1,6 +1,6 @@
 // 双链表节点
-// 用object定义
-class LinkedListNode {
+
+class DoublyLinkedListNode {
   constructor(value, next) {
     this.value = value;
     this.next = next;
@@ -12,6 +12,7 @@ class LinkedList {
     this.head = null;
   }
 }
+
 // ******增*******
 // 在链表头部添加一个元素
 
