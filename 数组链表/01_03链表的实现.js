@@ -1,5 +1,11 @@
 // 单链表节点
 
+class LinkedListNode {
+  constructor(value, next) {
+    this.value = value;
+    this.next = next;
+  }
+}
 // 双链表节点
 
 class DoublyLinkedListNode {
