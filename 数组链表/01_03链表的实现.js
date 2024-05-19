@@ -1,8 +1,11 @@
+// 单链表节点
+
 // 双链表节点
 
 class DoublyLinkedListNode {
-  constructor(value, next) {
+  constructor(value, previous, next) {
     this.value = value;
+    this.previous = previous;
     this.next = next;
   }
 }
