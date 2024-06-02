@@ -19,8 +19,8 @@ function moveZeroes(nums) {
 
   // 2. Walk through each element of the array. using loop
 
-
   // 3. If the element is zero, swap its position with the element at the pointer,
   // then decrement the pointer.
-  if(nums[0]=== 1)
+  if (nums[0] === 1) {
+  }
 }
