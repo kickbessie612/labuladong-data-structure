@@ -22,5 +22,6 @@ function moveZeroes(nums) {
   // 3. If the element is zero, swap its position with the element at the pointer,
   // then decrement the pointer.
   if (nums[0] === 1) {
+    return;
   }
 }
