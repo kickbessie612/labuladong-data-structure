@@ -23,5 +23,6 @@ function moveZeroes(nums) {
   // then decrement the pointer.
   if (nums[0] === 1) {
     return;
+    // maybe using sh
   }
 }
