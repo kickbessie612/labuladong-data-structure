@@ -26,3 +26,9 @@ console.log(myDog[myKey]); // prints `Fido`
 
 // myDog.myKey = myDog
 console.log(myDog.myKey); // prints: undefined
+
+let obj = { name: 'Rose', cats: 2 };
+
+for (let currentKey in obj) {
+  console.log(currentKey);
+}
