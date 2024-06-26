@@ -30,5 +30,14 @@ console.log(myDog.myKey); // prints: undefined
 let obj = { name: 'Rose', cats: 2 };
 
 for (let currentKey in obj) {
+  let value = obj[currentKey];
   console.log(currentKey);
+  console.log(value);
 }
+
+function catBuilder(name, color, toys) {
+  let cat = { name: name, color: color, toys: toys };
+  return cat;
+}
+
+console.log(catBuilder('Whiskey', 'black', 'yarn'));
