@@ -35,3 +35,8 @@ let { name, breed } = obj;
 
 console.log(name); // "Apples"
 console.log(breed); // ["tabby", "short hair"]
+
+// matching object properties
+let { a, c } = { a: 1, b: 2, c: 3 };
+a; //=> 1
+c; //=> 3
