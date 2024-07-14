@@ -28,3 +28,10 @@ let num2 = 3;
 
 console.log(num1); // 3
 console.log(num2); // 17
+
+//Destructuring objects into variables
+let obj = { name: 'Apples', breed: ['tabby', 'short hair'] };
+let { name, breed } = obj;
+
+console.log(name); // "Apples"
+console.log(breed); // ["tabby", "short hair"]
