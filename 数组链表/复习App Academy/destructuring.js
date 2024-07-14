@@ -40,3 +40,10 @@ console.log(breed); // ["tabby", "short hair"]
 let { a, c } = { a: 1, b: 2, c: 3 };
 a; //=> 1
 c; //=> 3
+
+// aliased object destructuring
+let fruitObj = { apple: 'red', banana: 'yellow' };
+let { apple: newApple, banana: newBanana } = fruitObj;
+
+console.log(newApple); // "red"
+console.log(newBanana); // "yellow"
