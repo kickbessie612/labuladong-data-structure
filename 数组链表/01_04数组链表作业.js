@@ -7,10 +7,4 @@
 // 检查index索引位置是否可以添加元素
 
 // LinkedList
-
-// git commit
 // 1
-// 2
-// 3
-// 4
-// 5
